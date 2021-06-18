@@ -67,7 +67,7 @@ dwm_xxx()
 {
     sarr
 }
-while xsetroot -name " ":"$(dwm_net)  $(dwm_cpu)"%"  ":"$(dwm_free)  ":"$(dwm_df)  "墳:"$(dwm_alsa)  "ﮮ:"$(dwm_date)" 
+while xsetroot -name "":"$(dwm_free)  ":"$(dwm_df)  "墳:"$(dwm_alsa)  "ﮮ:"$(dwm_date)" 
 do
     sleep 1 # refresh per 1s
 done &
